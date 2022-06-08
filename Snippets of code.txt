@@ -1,0 +1,8 @@
+
+Manual centering of the icons
+
+function center() {
+    sleepButton.style.display = "block";
+    sleepButton.style.marginLeft = "260px";
+    sleepButton.style.marginRight = "auto";
+}

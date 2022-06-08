@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--<link rel="stylesheet" href="./css/styles.css" /> -->
+
+    <link rel="stylesheet" href="./css/stylez.css" />
+
+    <script src="./js/index.js" defer></script>
+    
+    <title>Product finder</title>
+</head>
+<body>
+
+    <div class="screen">
+        
+
+            <div id="question-container">
+                <div id="question" class=" question">Vyhľadávač produktov</div>
+                    <div id="step 1" class="grid">
+                        <input type="image" id="sleep" class="btn" src="./SVG ikony SK/SK34.svg" alt="spánok a úľava" />
+                        <input type="image" id="imunity" class="btn" src="./SVG ikony SK/SK53.svg" alt="podpora imunity" />
+                        <input type="image" id="pain" class="btn" src="./SVG ikony SK/SK44.svg" alt="bolesť" />
+                        <input type="image" id="brain" class="btn" src="./SVG ikony SK/SK49.svg" alt="mozog a nervy" />
+                    </div>
+            </div>
+      
+
+<!--sleeping options...all of them-->  
+
+                <div id="question-container1">
+                    <div class=" question">Ako by ste chceli nájsť spánok?</div>
+                        <div id="step 2a" class="grid">
+                            <input type="image" id="sleep" class="btn" src="./SVG ikony SK/SK34.svg" alt="spánok a úľava" />
+                        </div>
+                    <div class="buttons">
+                        <button onclick="sleepWeight1()">Rýchle vstrebávanie</button>
+                        <button onclick="sleepWeight2()">Ľahká metóda užívania</button>   
+                    </div>
+                </div>
+
+            <div id="question-container1-1">
+                <div class=" question">Ako by ste chceli nájsť spánok?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="sleep" class="btn" src="./SVG ikony SK/SK34.svg" alt="spánok a úľava" />
+                    </div>
+                <div class="buttons">
+                    <button>Menej ako 65kg</button>
+                    <button>65-90kg</button>   
+                    <button>Viac ako 90kg</button>   
+                </div>
+            </div>
+
+            <div id="question-container1-2">
+                <div class=" question">Ako by ste chceli nájsť spánok?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="sleep" class="btn" src="./SVG ikony SK/SK34.svg" alt="spánok a úľava" />
+                    </div>
+                <div class="buttons">
+                    <button>Menej ako 65kg</button>
+                    <button>65-90kg</button>   
+                    <button>Viac ako 90kg</button>   
+                </div>
+            </div>
+            
+<!--imunity options...all of them-->            
+            <div id="question-container2">
+                <div id="question" class=" question">Ako by ste chceli nájsť zlepšenie imunity?</div>
+                    <div id="step 2a" class="grid">  
+                        <input type="image" id="imunity" class="btn" src="./SVG ikony SK/SK53.svg" alt="podpora imunity" />
+                    </div>
+                    <div class="buttons">
+                        <button onclick="imuneWeight1()">Okamžitý účinok</button>
+                        <button onclick="imuneWeight2()">Pomalé uvoľňovanie</button>   
+                    </div>
+            </div>
+
+            <div id="question-container2-1">
+                <div id="question" class=" question">Ako by ste chceli nájsť zlepšenie imunity?</div>
+                    <div id="step 2a" class="grid">  
+                        <input type="image" id="imunity" class="btn" src="./SVG ikony SK/SK53.svg" alt="podpora imunity" />
+                    </div>
+                    <div class="buttons">
+                        <button>Menej ako 65kg</button>
+                        <button>65-90kg</button>   
+                        <button>Viac ako 90kg</button>   
+                    </div>
+            </div>
+
+            <div id="question-container2-2">
+                <div id="question" class=" question">Ako by ste chceli nájsť zlepšenie imunity?</div>
+                    <div id="step 2a" class="grid">  
+                        <input type="image" id="imunity" class="btn" src="./SVG ikony SK/SK53.svg" alt="podpora imunity" />
+                    </div>
+                    <div class="buttons">
+                        <button>Menej ako 65kg</button>
+                        <button>65-90kg</button>   
+                        <button>Viac ako 90kg</button>   
+                    </div>
+            </div>
+
+<!--pain options...all of them-->
+            <div id="question-container3">
+                <div class=" question">Ako by ste chceli nájsť uvoľnenie od bolesti?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="pain" class="btn" src="./SVG ikony SK/SK44.svg" alt="bolesť" />
+                    </div>
+                    <div class="buttons">
+                        <button onclick="painLevel1()">Vonkajšia aplikácia</button>
+                        <button onclick="painLevel2()">Vnútorná aplikácia</button>   
+                    </div>
+            </div>
+            
+            <div id="question-container3-1">
+                <div class=" question">Aký level uvoľnenia hľadáte?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="pain" class="btn" src="./SVG ikony SK/SK44.svg" alt="bolesť" />
+                    </div>
+                    <div class="buttons">
+                        <button>Jemný</button>
+                        <button>Veľmi silný</button>   
+                    </div>
+            </div>
+
+            <div id="question-container3-2">
+                <div class=" question">Aký level uvoľnenia hľadáte?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="pain" class="btn" src="./SVG ikony SK/SK44.svg" alt="bolesť" />
+                    </div>
+                    <div class="buttons">
+                        <button>Jemný</button>
+                        <button>Veľmi silný</button>   
+                    </div>
+            </div>
+
+<!--brain options...all of them-->
+            <div id="question-container4">
+                <div class=" question">Ako by ste chceli nájsť upokojenie ?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="brain" class="btn" src="./SVG ikony SK/SK49.svg" alt="mozog a nervy" />
+                    </div>
+                    <div class="buttons">
+                        <button onclick="brainWeight1()">Okamžitý účinok</button>
+                        <button onclick="brainWeight2()">Pomalé uvoľňovanie</button>   
+                    </div>
+            </div>
+
+            <div id="question-container4-1">
+                <div class=" question">Ako by ste chceli nájsť upokojenie ?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="brain" class="btn" src="./SVG ikony SK/SK49.svg" alt="mozog a nervy" />
+                    </div>
+                    <div class="buttons">
+                        <button>Menej ako 65kg</button>
+                        <button>65-90kg</button>   
+                        <button>Viac ako 90kg</button>   
+                    </div>
+            </div>
+
+            <div id="question-container4-2">
+                <div class=" question">Ako by ste chceli nájsť upokojenie ?</div>
+                    <div id="step 2a" class="grid">
+                        <input type="image" id="brain" class="btn" src="./SVG ikony SK/SK49.svg" alt="mozog a nervy" />
+                    </div>
+                    <div class="buttons">
+                        <button>Menej ako 65kg</button>
+                        <button>65-90kg</button>   
+                        <button>Viac ako 90kg</button>   
+                    </div>
+            </div>
+    
+        <!--     
+            <div class="controls">
+                <button onclick="back()" id="back-btn" class="back">Back</button>
+            </div>
+        -->
+    </div> 
+
+</body>
+</html>
